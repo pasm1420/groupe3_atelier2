@@ -1,0 +1,237 @@
+main .categories , main .topModel{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main .categories .lesCategories{
+    justify-content: center;
+    display: flex;
+    font-size: 9px;
+    gap: 20px; /* Espace entre les catégories */
+    flex-wrap: wrap; /* Permettre aux catégories de passer à la ligne si elles ne rentrent pas */
+    margin: 20px;
+}
+main .categories .categorie {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    border: 1x solid var(--noir);
+    background-color: var(--blanc);
+    box-shadow: 2px 4px  5px var(--shadow); 
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    width: 15%;
+    box-sizing: border-box;
+
+
+}
+main .categories .title  {
+    padding-left: 300px;
+}
+
+main .categories .title h4 , main .topModel .title h4 , main .meilleurVente .title h4 , main .client .title h4 {
+    margin-right: 20px;
+}
+main .categories .title a , main .topModel .title a , main .meilleurVente .title a , main .client .title a{
+    color: var(--noir);
+    font-size: 8px;
+    margin: 0;
+}
+main .title{
+    display: flex;
+}
+main .title h4{
+    margin: 0 0px 0 10px;
+}
+
+main .models .model , main .profil .card{
+    display: grid;
+    grid-template-rows: 3fr 2fr ;
+    background-color: var(--blanc);
+    justify-content: center;
+    border-radius: 5px;
+    
+
+}
+main .models .model:hover{
+    border: 2px solid var(--jaune);
+    transform: scale(1.1);
+    
+
+}
+main .topModel .models , main .client .profil {
+   display: flex;
+   justify-content: center;
+   gap: 20px; /* Espace entre les catégories */
+    flex-wrap: wrap; /* Permettre aux catégories de passer à la ligne si elles ne rentrent pas */
+    margin: 20px;
+    
+
+}
+
+main .models .model .image img{
+    width: 170px;
+    height: 130px;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+main .models .model .content {
+ padding: 10px;
+ border: 1px solid var(--jaune);
+
+}
+main .models .model .content .titre , main .client .profil .card .content-client{
+ font-size: 12px;
+ font-weight: bold;
+
+}
+main .topModel .models .model .body-model p , main .client .profil .card .content-client .body-client p {
+    font-size: 10px;
+
+}
+#prix-barrer{
+    text-decoration: line-through;
+    color: var(--jaune);
+    margin: 0 10px 0 0 ;
+
+
+}
+#prix{
+    font-weight: bold;
+    margin: 0 10px 0 0 ;
+}
+#reduction{
+    border: 1px solid var(--jaune);
+    padding: 5px;
+}
+.chevrons{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+    
+}
+.chevrons i {
+    background-color: var(--jaune);
+    padding: 10px;
+}
+main .topModel .title , main .meilleurVente .title , main .client .title{
+    padding-left: 230px;
+    padding-top: 20px;
+}
+
+/* ----------------------------------------section reduction----------------------------- */
+main .reduction .reduction-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    margin: 20px auto;
+    box-shadow: 2px 4px 5px var(--shadow);
+    height: 150px;
+    background-color: var(--jaune);
+
+
+}
+main .reduction .reduction-contain .texte-reduction{
+    margin-left: 40px;
+}
+
+main .reduction .reduction-contain .texte-reduction p span:first-child{
+   
+font-weight: bold;
+font-size: 30px;
+
+
+}
+main .reduction .reduction-contain .image-reduction img{
+    height: 150px;
+     
+
+}
+#pourcentage{
+    font-size: 20px;
+}
+
+.bouton_acheter{
+    margin-left: 40px;
+
+}
+.bouton_acheter button{
+    font-size: 10px;
+    padding:10px ;
+    font-weight: bold;
+
+}
+/* --------------CLIENT---------------------------------- */
+
+main .client .profil .card .card-image img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid var(--noir);
+    margin-top: 15px;
+} 
+main .client .profil .card .card-image {
+    padding: 0 10px;
+
+} 
+
+main .client .profil .card .content-client {
+    margin-top: -20px;
+} 
+main .client .profil .card .content-client .titre{
+    font-size: 13px;
+    margin: 5px 0;
+    text-align: center;
+} 
+
+main .client .profil .card .content-client .body-client p{
+    border-radius: 19px;
+    border: 1px solid var(--noir);
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    margin : 0 auto ; 
+    width: 50%;
+
+}
+
+main .client .profil .card .content-client div ul{
+    display: flex;
+    margin: 0 40px 0 0;
+}
+main .client .profil .card .content-client div ul li{
+    list-style: none;
+    margin: 10px;
+
+}
+main .client .profil .card .content-client div ul li a{
+    color: var(--jaune);
+}
+main .client .profil .card .content-client .body-client div button{
+    background-color: var(--jaune);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 15px auto ; 
+    width: 50%;
+} 
+/* ------------------RESPONSIVE------------------------------------------ */
+@media  only screen and  (max-width : 1075px) {
+    /* gerer le bouton de recherche */
+    header .banner .bannerRight .search input{
+        padding: 5px 10px;
+        width: 200px;
+    }
+
+    
+}
+

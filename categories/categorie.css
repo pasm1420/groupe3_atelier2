@@ -1,0 +1,44 @@
+main .categories .lesCategories{
+    justify-content: center;
+    display: flex;
+    font-size: 9px;
+    gap: 20px; /* Espace entre les catégories */
+    flex-wrap: wrap; /* Permettre aux catégories de passer à la ligne si elles ne rentrent pas */
+    margin: 20px;
+}
+main .categories .categorie {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    border: 1x solid var(--noir);
+    background-color: var(--blanc);
+    box-shadow: 2px 4px  5px var(--shadow); 
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+
+
+}
+main .categories .title  {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+main .categories .title a {
+    color: var(--noir);
+    font-size: 8px;
+    margin: 0;
+}
+main .title{
+    display: flex;
+}
+main .title h4{
+    margin: 0 0px 0 10px;
+}
+h4{
+    text-align: center;
+}

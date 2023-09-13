@@ -1,0 +1,56 @@
+
+
+
+
+
+   /* ***********************************************Design page metier********************************************************** */
+
+   img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(9, 9, 9 ,  0.7);
+    border: 10px solid white;
+   }
+
+   .card1 ,.card2 ,.card3 ,.card4 ,.card5{
+       display: flex;
+       justify-content: center;
+       margin-top: 100px;
+   }
+   /* .card-image1 , .card-image2, .card-image3, .card-image4, .card-image5{
+    border-radius: 10px;
+    border: 10px solid white;
+   } */
+   .titre{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--jaune);
+   }
+   .para{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+    
+   }
+   .btn1, .btn2{
+     /* margin-left: 600px; */
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     padding: 10px;
+     border-radius: 5px;
+     border: 3px solid var(--jaune);
+     font-size: 17px;
+   }
+   .card5{
+    margin-bottom: 80px;
+   }
+   #metier{
+    margin: 0 50px
+
+   }
+   

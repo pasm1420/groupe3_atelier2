@@ -1,0 +1,141 @@
+:root{
+    --jaune : rgb(220, 176, 17) ;
+    --noir : rgb(53, 50, 50) ;
+    --gris : #ededed ; 
+    --whitesmoke : rgb(223, 214, 214);
+    --blanc : white;
+    --shadow: rgba(179, 177, 177, 0.947);
+    
+}
+body{
+   margin: 0 auto;
+   display: grid;
+   grid-template-rows: auto auto auto;
+   font-family: Verdana;
+   font-size: 14px;
+}
+ /* -------------------------------HEADER------------------------------------------------------------ */
+header{
+    background-color: var(--noir);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+header .banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px; 
+}
+header .banner .bannerLeft .logo , footer .partie1{
+   font-size: 25px;
+   color: var(--jaune);
+}
+header .banner .bannerLeft .logo span{
+   padding-left: 20px;
+
+}
+header .banner .bannerRight{
+   display: flex;
+}
+header .banner .bannerRight .options ul , header .menu .menuItems ul {
+    display: flex;
+   list-style: none;
+   margin: 10px 0 ;
+
+}
+header .banner .bannerRight .options ul li{
+    padding: 0 20px;
+    border-right:3px solid #ccc; 
+    
+
+}
+
+header .banner .bannerRight .options ul li:nth-child(3){
+    border-right:none; 
+    
+
+}
+header .banner .bannerRight .options ul li a {
+    text-decoration: none;
+    color: var(--jaune);
+
+
+}
+header .banner .bannerRight .options ul li a i{
+    padding-right: 6px;
+
+
+}
+header .banner .bannerRight .search input{
+    padding: 5px 10px;
+    width: 320px;
+}
+header .banner .bannerRight .search {
+   display: flex;
+   position: relative;
+
+}
+header .banner .bannerRight .search .searchButton {
+    position: relative;
+    border:  none;
+    background-color: white;
+    text-align: center;
+    color: black ; 
+    cursor: pointer;
+    outline: none;
+    left: -30px;
+    height: 27px;
+    top:1.5px
+  }
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px; 
+    background-color: white;
+}
+
+
+header .menu .menuItems ul  li {
+    margin: 0;
+    padding: 0 20px;
+}
+header .menu button{
+    margin: 0;
+    color: var(--noir);
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 10px;
+    background-color: var(--jaune);
+}
+header .menu .menuItems ul  li a{
+    text-decoration: none;
+    color: var(--noir);
+    font-size: 10px;
+    font-weight: 600;
+
+
+}
+header .menu .menuItems ul  li a .fa-chevron-down{
+    padding-left: 10px;
+    font-size: 10px;
+
+
+}
+header .menu .menuItems ul li  .active{
+border-bottom: 2px solid var(--jaune);
+
+
+}
+header .menu .menuItems ul li a:hover{
+border: 2px solid var(--jaune);
+padding: 10px;
+
+
+}
+
+main{
+    background-color: var(--gris);
+    margin-top: 80px;
+}

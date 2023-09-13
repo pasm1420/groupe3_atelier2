@@ -1,0 +1,148 @@
+
+ 
+ 
+
+/* ***********************************************Design page panier********************************************************** */
+
+:root{
+    --jaune : #dcb011 ;
+    --noir : rgb(53, 50, 50) ;
+    --gris : #ededed ; 
+    --whitesmoke : rgb(223, 214, 214);
+    
+}
+
+
+.panier-container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+  }
+  .letfhand{
+   
+    margin-left: 20px;
+    
+  }
+  .righthand{
+    border: 1px solid gray;
+    height: 170px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+  }
+  .row1,.row2,.row3,.row4{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+
+  }
+  .images{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(216, 212, 212, 0.7);
+
+  }
+  .selectAll{
+
+   
+     font-size: 15px
+  }
+  .icons, .paragraph,.prix,.fa-trash-can{
+    margin-left:    50px;
+    
+  }
+
+  .icons , .paragraph{
+    display: flex;
+    justify-content: center;
+  }
+  .prix{
+    margin-right: 100px;
+  }
+  .paragraph,.prix{
+    font-size: 15px;
+  }
+  .numero{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+  .fa-trash-can,.fa-minus,.fa-plus{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+    padding-right: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+  }
+  .fa-trash-can{
+    color: red;
+   
+  }
+  .fa-minus,.fa-plus{
+    color: var(--jaune);
+  }
+
+  h1{
+    color: var(--jaune);
+  }
+  h1 , h4{
+     text-align: center; 
+     margin-top: 50px;
+     font-size: 20px;
+
+  }
+
+  .btnpay{
+    padding: 10px;
+    background-color: var(--jaune);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid var(--jaune);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 100%; */
+    
+  }
+  hr{
+    width: 70px;
+    display: inline-block;
+    color: var(--jaune);
+    font-weight: bold;
+   
+  }
+  .fonticon{
+    height: 60px;
+    width: 60px;
+    /* background-color: white;
+    border: 1px solid white; */
+    background-color: unset;
+    border: unset;
+    border-radius: 50%;
+    
+  }
+  .fa-trash-can{
+    padding-left: 0;
+    margin-left: 0;
+  }
+  /* input[checked]{
+    padding: 5px;
+   background-color: unset;
+
+  } */

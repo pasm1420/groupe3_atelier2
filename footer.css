@@ -1,0 +1,45 @@
+/* --------------FOOTER--------------------------------- */
+
+footer{
+    background-color: var(--noir);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+
+}
+
+footer .partie div ul{
+    margin: 0;
+    padding: 0;
+}
+footer .partie div ul li , footer .partie p {
+    list-style: none;
+    padding-bottom: 30px;
+
+}
+footer .partie div ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.reseauxSociaux{
+    display: flex;
+}
+.reseauxSociaux li{
+    padding-left: 10px;
+}
+.inscrire {
+    background-color: var(--jaune);
+    border: 1px solid var(--noir);
+    padding: 12px;
+    position: relative;
+    left: -7px;
+}
+.newsletter input{
+    padding: 10px;
+
+}
+.textLogo{
+    padding-left: 20px;
+}

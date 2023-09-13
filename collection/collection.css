@@ -1,0 +1,28 @@
+
+
+
+
+#C1{
+    list-style: none;
+    overflow-x: scroll; /* Activer le défilement horizontal */
+    white-space: nowrap; /* Empêcher le retour à la ligne des éléments*/
+    display: inline-block; /* Afficher les éléments  en ligne */
+    margin-right: 20px; /* Marge entre les éléments (ajustez selon vos besoins) */
+}
+.resized-image {
+    width: 200px; /* Définir la largeur de l'image (ajustez selon vos besoins) */
+    height: auto; /* Maintenir le rapport hauteur/largeur de l'image */
+}
+
+
+#C1  img {
+    
+    max-width: 100%; /* Empêcher le dépassement de la largeur de l'image */
+    height: auto; /* Maintenir le ratio hauteur/largeur de l'image */
+    
+    width: 200px; /* Définir la largeur de l'image (ajustez selon vos besoins) */
+    height: 200px; /* Maintenir le rapport hauteur/largeur de l'image */
+}
+a{
+    color: black;
+}
